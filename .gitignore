@@ -1,0 +1,81 @@
+# -------------------------------------
+# Node modules
+# -------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnpm-store/
+
+# -------------------------------------
+# Environment variables
+# IMPORTANT: Luôn bỏ qua file .env
+# -------------------------------------
+.env
+.env.*
+!.env.example
+
+# -------------------------------------
+# Logs
+# -------------------------------------
+logs/
+*.log
+*.log.*
+log/
+debug.log
+error.log
+
+# PM2 logs
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# -------------------------------------
+# Runtime data
+# -------------------------------------
+tmp/
+temp/
+*.tmp
+
+# nodemon data
+nodemon.json
+
+# -------------------------------------
+# OS files (Windows / Mac)
+# -------------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# -------------------------------------
+# VS Code
+# -------------------------------------
+.vscode/
+.history/
+*.code-workspace
+
+# -------------------------------------
+# Build / cache
+# -------------------------------------
+dist/
+build/
+coverage/
+.cache/
+.nyc_output/
+
+# -------------------------------------
+# Environment specific
+# -------------------------------------
+*.local
+*.env.local
+*.development.local
+*.production.local
+
+# -------------------------------------
+# Optional: ignore uploads (nếu có upload file)
+# -------------------------------------
+uploads/
+public/uploads/
